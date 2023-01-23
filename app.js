@@ -161,32 +161,32 @@ let dishes = [
 //2. Create a function that will prompt the user to enter a cuisine type and then return all dishes that match that type
 //Filter
 
-function problemTwo(){
-    (prompt("what type of food do you prefer? ", menu))
-    let type;
-    type = dishes.filter(function(menu){
-        if(menu.cuisine === "Vegetarian"){
-            return true;
-            console.log(dishes.vegetarian)
-        }
-        else if(menu.cuisine === "Italian"){
-            return true;
-        }    
-        else if(menu.cuisine === "Irish"){
-            return true;
-        }    
-        else if(menu.cuisine === "Vietnamese"){
-            return true;
+// function problemTwo(){
+//     (prompt("what type of food do you prefer? ", menu))
+//     let type;
+//     type = dishes.filter(function(menu){
+//         if(menu.cuisine === "Vegetarian"){
+//             return true;
+//             console.log(dishes.vegetarian)
+//         }
+//         else if(menu.cuisine === "Italian"){
+//             return true;
+//         }    
+//         else if(menu.cuisine === "Irish"){
+//             return true;
+//         }    
+//         else if(menu.cuisine === "Vietnamese"){
+//             return true;
 
-        else:
-        console.log("invalid")
-        }    
-    }
-    )
-     }
+//         else:
+//         console.log("invalid")
+//         }    
+//     }
+//     )
+//      }
 
-let foodChoice = problemTwo();
-console.log('foodChoice from problemTwo', foodChoice)
+// let foodChoice = problemTwo();
+// console.log('foodChoice from problemTwo', foodChoice)
 
 
 //3. Create a function that will return all dishes with the cuisine type of "Italian" and a serving size greater than 5.
@@ -216,9 +216,17 @@ console.log('foodChoice from problemTwo', foodChoice)
 
 //4. Create a function that will return only dishes whose id number matches their serving count.
 //Filter
-
-
-
+function problemFour
+    let idServing;
+    idServing === dishes.filter(function(serv, id){
+        serv = dishes.servings, id = dishes.id;
+        if(serv == id){
+        return true
+    }
+    }
+    )
+let idServing = problemFour();
+console.log('idServing from problemFour: 'idServing)
 
 //5. Create a function that will return only dishes whose serving count is even.
 //Filter
